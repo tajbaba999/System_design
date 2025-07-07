@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/LogProcessor/LogProcessor.iml" filepath="$PROJECT_DIR$/LogProcessor/LogProcessor.iml" />
       <module fileurl="file://$PROJECT_DIR$/Parking_System/Parking_System.iml" filepath="$PROJECT_DIR$/Parking_System/Parking_System.iml" />
       <module fileurl="file://$PROJECT_DIR$/SystemDesign.iml" filepath="$PROJECT_DIR$/SystemDesign.iml" />
     </modules>
