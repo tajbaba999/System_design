@@ -17,5 +17,12 @@ public class Main {
             for (MapEntry<Integer, String> ele : map.entrySet()){
                 System.out.println("Key : "+ele.getKey() +" Value : "+ ele.getValue());
             }
+//        MyHashMapIterator<String, String> it = map.iterator();
+//
+//        while (it.hasNext()) {
+//            MapEntry<String, String> entry = it.next();
+//            System.out.println("Key = " + entry.getKey() + ", Value = " + entry.getValue());
+//        }
+
     }
 }
