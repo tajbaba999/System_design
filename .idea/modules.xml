@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/LogProcessor/LogProcessor.iml" filepath="$PROJECT_DIR$/LogProcessor/LogProcessor.iml" />
       <module fileurl="file://$PROJECT_DIR$/ObserverPattern/ObserverPattern.iml" filepath="$PROJECT_DIR$/ObserverPattern/ObserverPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Parking_System/Parking_System.iml" filepath="$PROJECT_DIR$/Parking_System/Parking_System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProxyPattern/ProxyPattern.iml" filepath="$PROJECT_DIR$/ProxyPattern/ProxyPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/StrategyPattern/StrategyPattern.iml" filepath="$PROJECT_DIR$/StrategyPattern/StrategyPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/SystemDesign.iml" filepath="$PROJECT_DIR$/SystemDesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/StrategyPattern/WithStrategyPattern/WithStrategyPattern.iml" filepath="$PROJECT_DIR$/StrategyPattern/WithStrategyPattern/WithStrategyPattern.iml" />
