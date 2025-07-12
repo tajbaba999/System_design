@@ -17,6 +17,10 @@ public class TheatreController {
 
     List<Theatre> allTheatre;
     //allTheatre = [PVR, INOX, Cinepolis, Carnival]
+    public TheatreController(){
+        cityVsTheatre = new HashMap<>();
+        allTheatre = new ArrayList<>();
+    }
 
 
     public void addTheathre(Theatre theatre, City city){
@@ -31,7 +35,7 @@ public class TheatreController {
 
         Map<Theatre, List<Show>> theatreVsShows = new HashMap<>();
 
-        List<Theatre> theatres =new ArrayList<>();
+        List<Theatre> theatres =cityVsTheatre.get(city);
 
 
         for (Theatre theatre : theatres){

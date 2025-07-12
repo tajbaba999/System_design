@@ -16,6 +16,9 @@ public class Theatre {
     public int getTheatreId(){
         return theatreId;
     }
+    public  void setTheatreId(int theatreId){
+        this.theatreId = theatreId;
+    }
 
     public void setScreen(List<Screen> screen) {
         this.screen = screen;

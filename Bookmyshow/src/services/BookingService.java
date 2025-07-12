@@ -50,6 +50,23 @@ public class BookingService {
         printSuccess("Thank you for using BookMyShow! 🎬 Have a great day!");
     }
 
+    public City selectCity(){
+        printSection("🏙️ Select Your City");
+        for (City city : City.values()){
+            System.out.println("   "+ (city.ordinal() + 1) +" . "+city);
+        }
+        return City.values()[getUserChoice(1, City.values().length) - 1];
+    }
+
+    public Movie selectMovie(City city){
+        List<Movie> movies = movieController.getMovieByCity(city);
+        printSection("🎥 Available Movies in " + city);
+        for (int i = 0; i < movies.size(); i++) {
+            System.out.println("   " + (i + 1) + ". " + movies.get(i).getMoviename());
+        }
+        return movies.get(getUserChoice(1, movies.size()) - 1);
+    }
+
     public Show selectShow(City city, Movie movie){
         Map<Theatre, List<Show>> showsMap = theatreController.getAllShows(movie, city);
         // { PVR → [Morning Show, Evening Show], INOX → [Afternoon Show] }
@@ -77,9 +94,9 @@ public class BookingService {
         }else{
             show.getBookedSeatsIds().add(seatNumber);
             PaymentService paymentService = new PaymentService();
-            boolean paymentsucess = paymentService.processPayment(250);
+            boolean paymentSuccess = paymentService.processPayment(250);
 
-            if(paymentsucess){
+            if(paymentSuccess){
                 printSuccess("✅ Booking Successful! Enjoy your movie! 🍿");
                 generateTicket(show, seatNumber);
             }else {
@@ -87,36 +104,6 @@ public class BookingService {
                 show.getBookedSeatsIds().remove(seatNumber);
             }
         }
-    }
-
-    public Movie selectMovie(City city){
-        List<Movie> movies = movieController.getMovieByCity(city);
-        printSection("🎥 Available Movies in " + city);
-        for (int i = 0; i < movies.size(); i++) {
-            System.out.println("   " + (i + 1) + ". " + movies.get(i).getMoviename());
-        }
-        return movies.get(getUserChoice(1, movies.size()) - 1);
-    }
-
-    public City selectCity(){
-        printSection("🏙️ Select Your City");
-        for (City city : City.values()){
-            System.out.println("   "+ (city.ordinal() + 1) +" . "+city);
-        }
-        return City.values()[getUserChoice(1, City.values().length) - 1];
-    }
-
-    private int getUserChoice(int min, int max) {
-        int choice;
-        do {
-            System.out.print("👉 Enter choice (" + min + "-" + max + "): ");
-            while (!scanner.hasNextInt()) {
-                System.out.println("❌ Invalid input! Please enter a number.");
-                scanner.next();
-            }
-            choice = scanner.nextInt();
-        } while (choice < min || choice > max);
-        return choice;
     }
 
     private void generateTicket(Show show, int seatNumber) {
@@ -133,6 +120,25 @@ public class BookingService {
         System.out.println("🎉 Enjoy your movie! 🍿 Have a great time!");
         System.out.println("========================================\n");
     }
+
+
+
+
+
+    private int getUserChoice(int min, int max) {
+        int choice;
+        do {
+            System.out.print("👉 Enter choice (" + min + "-" + max + "): ");
+            while (!scanner.hasNextInt()) {
+                System.out.println("❌ Invalid input! Please enter a number.");
+                scanner.next();
+            }
+            choice = scanner.nextInt();
+        } while (choice < min || choice > max);
+        return choice;
+    }
+
+
 
     private void printHeader(String text) {
         System.out.println("\n══════════════════════════════════════════");

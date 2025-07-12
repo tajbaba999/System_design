@@ -31,7 +31,7 @@ public class BookingDataFactory {
 
     public static  List<Seat> createSeats(){
         List<Seat> seats =  new ArrayList<>();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 1; i <=100; i++) {
             Seat seat = new Seat();
             seat.setSeatId(i);
             seats.add(seat);

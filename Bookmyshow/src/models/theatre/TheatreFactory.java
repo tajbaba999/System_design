@@ -9,11 +9,11 @@ import java.util.List;
 public class TheatreFactory {
     public static Theatre createTheatre(int threatreId, String name, City city, List<Show> shows){
         Theatre theatre = new Theatre();
+        theatre.setTheatreId(threatreId);
         theatre.setTheatrename(name);
         theatre.setCity(city);
         theatre.setShows(shows);
         theatre.setScreen(createScreens());
-        theatre.setShows(shows);
         return theatre;
     }
 
