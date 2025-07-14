@@ -35,6 +35,7 @@ public class MovieController {
     }
 
 
+
     //REMOVE movie from a particular city, make use of cityVsMovies map
     public boolean removeMovieFromCity(String moviename, City city){
         List<Movie> movies = cityVsMovies.get(moviename);
@@ -51,6 +52,20 @@ public class MovieController {
         return false;
     }
 
+    public boolean updateMoviecity(String moviename, City city, Movie updateMovie){
+        List<Movie> movies = cityVsMovies.get(city);
+        if (movies == null) return false;
+
+        for (int i = 0; i < movies.size(); i++) {
+            Movie movie = movies.get(i);
+            if (movie.getMoviename().equals(moviename)){
+                movies.set(i, updateMovie);
+                return true;
+            }
+        }
+        return false;
+    }
+
     public Movie getMovieById(int d){
         for (Movie movie : allMovies){
             if (movie.getMovieId() == d){
@@ -58,6 +73,16 @@ public class MovieController {
             }
         }
         return null;
+    }
+
+    public boolean updateMovieById(int id, Movie updatedMovie){
+        for (int i = 0; i < allMovies.size(); i++) {
+            if(allMovies.get(i).getMovieId() == id){
+                allMovies.set(i, updatedMovie);
+                return true;
+            }
+        }
+        return false;
     }
 
     public boolean deleteMovieById(int id){
@@ -78,8 +103,4 @@ public class MovieController {
         }
         return  true;
     }
-
-    //UPDATE movie of a particular city, make use of cityVsMovies map
-
-    //CRUD operation based on Movie ID, make use of allMovies list
 }
