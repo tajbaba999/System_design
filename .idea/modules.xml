@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/DecoratorPattern/DecoratorPattern.iml" filepath="$PROJECT_DIR$/DecoratorPattern/DecoratorPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/FactoryPattern/FactoryPattern.iml" filepath="$PROJECT_DIR$/FactoryPattern/FactoryPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/HashMap_Internal_Implementation/HashMap_Internal_Implementation.iml" filepath="$PROJECT_DIR$/HashMap_Internal_Implementation/HashMap_Internal_Implementation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InfosysExam/InfosysExam.iml" filepath="$PROJECT_DIR$/InfosysExam/InfosysExam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLDofNULLobject/LLDofNULLobject.iml" filepath="$PROJECT_DIR$/LLDofNULLobject/LLDofNULLobject.iml" />
       <module fileurl="file://$PROJECT_DIR$/LogProcessor/LogProcessor.iml" filepath="$PROJECT_DIR$/LogProcessor/LogProcessor.iml" />
       <module fileurl="file://$PROJECT_DIR$/ObserverPattern/ObserverPattern.iml" filepath="$PROJECT_DIR$/ObserverPattern/ObserverPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/Parking_System/Parking_System.iml" filepath="$PROJECT_DIR$/Parking_System/Parking_System.iml" />
