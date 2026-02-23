@@ -9,7 +9,10 @@ public class ArrayListRemove {
         lst.add(34);
 
         System.out.println(lst);
+        // passing the object to remove the element
         lst.remove(Integer.valueOf(12));
+        //passing the index to remove element
+        lst.remove(0);
         System.out.println(lst);
     }
 }
