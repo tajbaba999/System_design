@@ -48,7 +48,6 @@ public class TheatreController {
                 }
             }
 
-
             if(!givenMovieShows.isEmpty()) {
                 theatreVsShows.put(theatre, givenMovieShows);
             }
