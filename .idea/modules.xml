@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Associations/Associations.iml" filepath="$PROJECT_DIR$/Associations/Associations.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bookmyshow/Bookmyshow.iml" filepath="$PROJECT_DIR$/Bookmyshow/Bookmyshow.iml" />
       <module fileurl="file://$PROJECT_DIR$/DecoratorPattern/DecoratorPattern.iml" filepath="$PROJECT_DIR$/DecoratorPattern/DecoratorPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/FactoryPattern/FactoryPattern.iml" filepath="$PROJECT_DIR$/FactoryPattern/FactoryPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/HashMap_Internal_Implementation/HashMap_Internal_Implementation.iml" filepath="$PROJECT_DIR$/HashMap_Internal_Implementation/HashMap_Internal_Implementation.iml" />
       <module fileurl="file://$PROJECT_DIR$/InfosysExam/InfosysExam.iml" filepath="$PROJECT_DIR$/InfosysExam/InfosysExam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaInterviewQuestions/JavaInterviewQuestions.iml" filepath="$PROJECT_DIR$/JavaInterviewQuestions/JavaInterviewQuestions.iml" />
       <module fileurl="file://$PROJECT_DIR$/LLDofNULLobject/LLDofNULLobject.iml" filepath="$PROJECT_DIR$/LLDofNULLobject/LLDofNULLobject.iml" />
       <module fileurl="file://$PROJECT_DIR$/LogProcessor/LogProcessor.iml" filepath="$PROJECT_DIR$/LogProcessor/LogProcessor.iml" />
       <module fileurl="file://$PROJECT_DIR$/ObserverPattern/ObserverPattern.iml" filepath="$PROJECT_DIR$/ObserverPattern/ObserverPattern.iml" />
@@ -16,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/SystemDesign.iml" filepath="$PROJECT_DIR$/SystemDesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/StrategyPattern/WithStrategyPattern/WithStrategyPattern.iml" filepath="$PROJECT_DIR$/StrategyPattern/WithStrategyPattern/WithStrategyPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/StrategyPattern/WithoutStrategyPattern/WithoutStrategyPattern.iml" filepath="$PROJECT_DIR$/StrategyPattern/WithoutStrategyPattern/WithoutStrategyPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uber-ride-system/uber-ride-system.iml" filepath="$PROJECT_DIR$/uber-ride-system/uber-ride-system.iml" />
     </modules>
   </component>
 </project>
