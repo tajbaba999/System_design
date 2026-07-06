@@ -4,8 +4,6 @@ A complete, topic-by-topic guide to system design — from networking fundamenta
 
 > **Taking reference from:**
 > - **[The System Design Primer](https://github.com/donnemartin/system-design-primer)** by Donne Martin — <https://github.com/donnemartin/system-design-primer>
-> - [System Design Course](https://github.com/TuShArBhArDwA/System-Design) (based on Karan Pratap Singh's course)
->
 > All content here is rewritten and reorganized as personal study notes. Full credit to the original authors.
 
 ---
