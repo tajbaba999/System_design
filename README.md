@@ -2,6 +2,9 @@
 
 A complete, topic-by-topic guide to system design — from networking fundamentals to distributed data, architecture patterns, resilience, security, and interview preparation. Every major concept comes with a diagram.
 
+![Stars](https://img.shields.io/github/stars/tajbaba999/System_Design?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/tajbaba999/System_Design?style=flat-square)
+
 > **Taking reference from:**
 > - **[The System Design Primer](https://github.com/donnemartin/system-design-primer)** by Donne Martin — <https://github.com/donnemartin/system-design-primer>
 > All content here is rewritten and reorganized as personal study notes. Full credit to the original authors.
